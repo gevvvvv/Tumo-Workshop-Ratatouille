@@ -1,5 +1,7 @@
-app.home = { 
-init: function(){
-alert("Hello World!"); 
-}
-}
+
+app.home = {
+	init:function  () {
+		
+		alert("Hello World!");
+	}
+};

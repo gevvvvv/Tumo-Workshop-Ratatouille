@@ -5,15 +5,15 @@ app = {}, UTIL = {
     },
     loadEvents: function() {
         var n = document.body.id;
-        UTIL.fire("common"), $.each(document.body.className.split(/\s+/), function(i, o) {
-            UTIL.fire(n), UTIL.fire(n, o);
+        UTIL.fire("common"), UTIL.fire(n), $.each(document.body.className.split(/\s+/), function(i, o) {
+            UTIL.fire(n, o);
         }), UTIL.fire("common", "finalize");
     }
 }, $(document).ready(UTIL.loadEvents), app.common = {
     init: function() {},
     finalize: function() {}
-}, app.home = { 
-init: function(){
-alert("Hello World!"); 
-}
+}, app.home = {
+    init: function() {
+        alert("Hello World!");
+    }
 };

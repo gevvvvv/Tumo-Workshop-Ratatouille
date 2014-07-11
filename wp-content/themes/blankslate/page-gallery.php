@@ -1,6 +1,4 @@
 	<?php get_header(); ?>
-
-		
 		<div class="pikachoose">
 		<ul id="pikame" class="jcarousel-skin-pika">
 		<li><img src="gallery/remy1.png" title="Remy"/></a></li>

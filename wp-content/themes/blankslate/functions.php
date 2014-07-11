@@ -65,7 +65,6 @@ return $count;
 }
 }
 
-
 function page_body_id() {
     global $wp_query;
     $page = '';
