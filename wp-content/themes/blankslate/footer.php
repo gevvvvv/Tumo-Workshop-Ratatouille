@@ -1,4 +1,6 @@
 <?php wp_footer(); ?>
+
+</div>
 <div class="footerdiv">
 			<div class="leftFooter">
 				<p class="textfooter11">Made by Arevik Arevyan.  </p>

@@ -23,6 +23,12 @@
 
 
 </head>
+
+
 <body id="<?php echo page_body_id();?>" <?php body_class(); ?>>
 
 <?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
+
+<div class="background">
+
+    
