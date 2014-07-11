@@ -1,34 +1,4 @@
-<html>
-	<head>
-		<title>Ratatouille</title>
-		<link rel="stylesheet" href="css/bootstrap.css" />
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src=js/bootstrap.js></script>
-        <link rel="icon" href="logo/favicon (1).ico" type="image/x-icon">
-		<link type="text/css" href="styles/bottom.css" rel="stylesheet" />
-		<script type="text/javascript" src=" https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
-        <script type="text/javascript" src="lib/jquery.jcarousel.min.js"></script>
-		<script type="text/javascript" src="lib/jquery.pikachoose.min.js"></script>
-		<script type="text/javascript" src="lib/jquery.touchwipe.min.js"></script>
-		<script language="javascript">
-			$(document).ready(
-				function (){
-					$("#pikame").PikaChoose({carousel:true});
-				});
-		</script>
-	</head>
-	<body>
-    	
-		<header>
-        
-			<div class="logodiv">
-            <a  href="index.html">
-			<img src="logo/ratatouille-11.png"id="logo">
-            </a>
-			</div>
-		</header>
-		<div id="maindiv">
-		<div class="background">
+	<?php get_header(); ?>
 		<div class="pikachoose">
 		<ul id="pikame" class="jcarousel-skin-pika">
 		<li><img src="gallery/remy1.png" title="Remy"/></a></li>
@@ -65,29 +35,7 @@
 
 	</ul>
 </div>
-</div>
-</div>
+
 		
 		
-		
-		<div class="footerdiv">
-			<div class="leftFooter">
-				<p class="textfooter11">Made by Arevik Arevyan.  </p>
-			</div>
-			
-			<div class="rightFooter">
-				
-				<div class="facebook">
-					<a  href="http://www.facebook.com" id="facebook" target="_blank"></a>
-				</div>
-				<div class="twitter">
-					 <a  href="http://www.twitter.com" id="twitter" target="_blank"></a>
-				</div>
-				<p class="find">  Find us on:</p>
-			</div>
-		</div>
-		
-		
-		
-	</body>
-</html>
+				<?php get_footer(); ?>
