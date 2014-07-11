@@ -26,24 +26,6 @@
 			<img src="logo/ratatouille-11.png"id="logo">
             </a>
 			</div>
-			<div id="menudiv">
-			  
-			  
-			<ul class="menuul">
-            			<li class="menu">
-							<a href="cast.html">Cast</a></li>                   
-						<li class="menu">
-							<a href="behindthescenes.html">Behind the Scenes</a></li>
-                       	<li class="menu">
-							<a href="eskizas.html">Eskizas</a></li>
-						<li class="menu">
-							<a href="characters.html">Characters</a></li>
-                        <li class="menu">
-							<a href="gallery.html">Gallery</a></li>
-                       
-			</ul>
-			</div>
-			</div>
 		</header>
 		<div id="maindiv">
 		<div class="background">
