@@ -12,4 +12,8 @@ app = {}, UTIL = {
 }, $(document).ready(UTIL.loadEvents), app.common = {
     init: function() {},
     finalize: function() {}
+}, app.home = { 
+init: function(){
+alert("Hello World!"); 
+}
 };
