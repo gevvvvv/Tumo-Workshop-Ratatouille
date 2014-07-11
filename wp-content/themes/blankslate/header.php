@@ -17,6 +17,11 @@
         <script type="text/javascript" src="js/jquery-ui-1.8.10.custom.js"></script>
         <link rel="icon" href="logo/favicon (1).ico" type="image/x-icon">
 
+
+    <script type="text/javascript" src="<?=get_template_directory_uri();?>/js/vendor.js"></script>
+    <script type="text/javascript" src="<?=get_template_directory_uri();?>/js/app.js"></script>
+
+
 </head>
 <body id="<?php echo page_body_id();?>" <?php body_class(); ?>>
 

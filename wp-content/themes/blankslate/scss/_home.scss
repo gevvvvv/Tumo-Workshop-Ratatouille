@@ -1,3 +1,265 @@
-body {
-  background: #ff0;
+body{
+background-image:url(logo/1447672.png);
+background-attachment:fixed;
+font-family:"Times New Roman",Georgia,Serif;
+font-size:18px;
+}
+
+.background {
+  background-color: rgb(255,245,245);
+  margin: 0 auto;
+  padding:20px 0 20px 0;
+  width: 960px;
+
+}
+
+.logodiv{
+border:0;
+float:left;
+
+}
+li {
+display: block;
+float: right;
+font-size: 18px;
+padding: 0 16px;
+line-height:50px;
+}
+a{
+color: white;
+text-decoration:none;
+display: inline;
+}
+#menudiv{
+padding-top:33px;
+}
+
+.menuul li a:hover{
+color:rgb(250,211,136);
+}
+
+.menuul:hover{
+display: block;
+}
+.text {
+  color: #0A0A0A;
+  float: right;
+  font-size: 19px;
+  height: 590px;
+  width: 364px;
+  margin-right: 55px;
+  margin-top: 41px;
+}
+
+.spantext{
+font-weight:bold;
+font-size:25px;
+
+
+}
+.menu{
+font-family:futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
+}
+.trailers{
+margin:0 auto;
+width:560px;
+}
+.trailersbehind{
+margin:0 auto;
+width:692px;
+}
+.behindvideo iframe{
+padding:20px 56px;
+
+}
+#officialsite{
+color: rgb(10,10,10);
+text-decoration:underline;
+ }
+.maindiv{
+width: 960px;
+height: 642px;
+padding-bottom: 30px;
+}
+.findmore{
+padding: 30px 0px;
+}
+
+ifarme{
+margin:0 auto;
+}
+
+ 
+h2{
+ font-size: 21px;
+font-family:futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
+line-height: 0px;
+margin: 40px 0px;
+
+}
+
+#trailer1, #trailer2{
+padding: 10px 0;
+
+ }
+.behindvideo p{text-align: justify;}
+
+
+ #mainphoto {
+ opacity:1;
+background-image: url(home/ratatouille.jpg);
+height: 570px;
+width: 440px;
+float: left;
+margin-left: 40px;
+margin-top: 40px;
+margin-bottom: 40px;
+ }
+ 
+ header {
+  height: 80px;
+  margin: 0 auto;
+  width: 950px;
+  padding: 29px;
+}
+ 
+.firstvideo{
+padding-top: 3px;
+}
+.trailer1vernagir p{
+text-align:justify;
+}
+
+ .text p{
+ margin:20px 0;
+ line-height: 24px;
+ text-align: justify;
+ }
+ span{
+ margin-left: 10px;
+ }
+ #facebook {
+display:inline-block;
+ background-image: url('logo/facebook.png');
+ width: 20px;
+ height: 20px;
+ }
+ #facebook:hover{
+  background:url('logo/facebookhover.png');
+
+ } 
+ #twitter  {
+ display: inline-block;
+ background-image: url('logo/twitter.png');
+  height: 20px;
+  width: 20px;
+ }
+ #twitter:hover{
+ background:url('logo/twitterhover.png');
+
+ }
+
+
+.leftFooter{
+width:300px;
+float:left;
+display:inline;
+color: #ffffff;
+font-family: futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
+}
+
+.rightFooter{
+width:500px;
+float:right;
+text-align:right;
+}
+
+
+
+.footerdiv {
+margin:0 auto;
+width:960px;
+padding: 50px 0;
+ }
+.trailer1vernagir p, .characterstext .linkstext{
+font-size:17px;
+} 
+ 
+.characterimgleft{
+margin:0 20px 20px 0;
+float:left;
+}
+
+.characterimgright{
+margin:0 20px 0 20px;
+float:right;
+} 
+  .characters{
+padding: 0 60px;
+height: 235px;
+
+ }
+ 
+ .characters p{
+ width: 822px;
+ margin: 10px 20px 10px 0px;
+ line-height: 24px;
+ text-align:justify;
+ }
+ .characters span{
+margin-top: 33px;
+margin-right: 15px;
+margin-bottom: 10px;
+margin-left: 13px;
+ }
+ 
+ .behindvideo{
+ width:672px;
+ margin: 0 auto;
+ }
+.links{
+color: rgb(30,15,190);
+text-decoration:underline;
+font-size: 15px;
+}
+a:hover{
+color: rgb(102,0,153);
+}
+.linkstext{
+display: inline;
+font-size: 18px;
+}
+.casttext{
+display: inline-block;
+padding-top:61px;
+padding-left: 37px;
+}
+.cast{
+width: 840px;
+height: 192px;
+margin: 10px 60px;
+}
+ 
+
+.casttext p{
+padding-left:20px;
+display: inline;
+font-size:27px;
+}
+.castcharacter{
+ float:right;
+ display:inline;
+ }
+
+ .castactor{
+float:left;
+display:inline;
+}
+
+.find, .facebook, .twitter{
+float:right;
+margin-left:5px;}
+
+.find{
+color: #ffffff;
 }

@@ -1,60 +1,330 @@
-/*
-Syntax error: File to import not found or unreadable: cast.
-              Load paths:
-                c:/projects/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss
-                c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/blueprint/stylesheets
-                c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets
-                Compass::SpriteImporter
-        on line 3 of c:/projects/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss/style.scss
+/* line 1, scss/_home.scss */
+body {
+  background-image: url(logo/1447672.png);
+  background-attachment: fixed;
+  font-family: "Times New Roman",Georgia,Serif;
+  font-size: 18px;
+}
 
-1: c:/projects/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss/style.scss
+/* line 8, scss/_home.scss */
+.background {
+  background-color: #fff5f5;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  width: 960px;
+}
 
-Backtrace:
-c:/projects/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss/style.scss:3
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/import_node.rb:67:in `rescue in import'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/import_node.rb:45:in `import'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/import_node.rb:28:in `imported_file'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/import_node.rb:37:in `css_import?'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/root_node.rb:20:in `render'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:138:in `block in compile'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/logger.rb:45:in `red'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:137:in `compile'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:118:in `compile_if_required'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `each'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `block in run'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/compiler.rb:100:in `run'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/commands/update_project.rb:45:in `perform'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/commands/base.rb:18:in `execute'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/bin/compass:30:in `block in <top (required)>'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/bin/compass:44:in `call'
-c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/bin/compass:44:in `<top (required)>'
-c:/Ruby193/bin/compass:23:in `load'
-c:/Ruby193/bin/compass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: cast.\A               Load paths:\A                 c:/projects/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss\A                 c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/blueprint/stylesheets\A                 c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 3 of c:/projects/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss/style.scss\A \A 1: c:/projects/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss/style.scss"; }
+/* line 16, scss/_home.scss */
+.logodiv {
+  border: 0;
+  float: left;
+}
+
+/* line 21, scss/_home.scss */
+li {
+  display: block;
+  float: right;
+  font-size: 18px;
+  padding: 0 16px;
+  line-height: 50px;
+}
+
+/* line 28, scss/_home.scss */
+a {
+  color: white;
+  text-decoration: none;
+  display: inline;
+}
+
+/* line 33, scss/_home.scss */
+#menudiv {
+  padding-top: 33px;
+}
+
+/* line 37, scss/_home.scss */
+.menuul li a:hover {
+  color: #fad388;
+}
+
+/* line 41, scss/_home.scss */
+.menuul:hover {
+  display: block;
+}
+
+/* line 44, scss/_home.scss */
+.text {
+  color: #0A0A0A;
+  float: right;
+  font-size: 19px;
+  height: 590px;
+  width: 364px;
+  margin-right: 55px;
+  margin-top: 41px;
+}
+
+/* line 54, scss/_home.scss */
+.spantext {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* line 60, scss/_home.scss */
+.menu {
+  font-family: futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
+}
+
+/* line 63, scss/_home.scss */
+.trailers {
+  margin: 0 auto;
+  width: 560px;
+}
+
+/* line 67, scss/_home.scss */
+.trailersbehind {
+  margin: 0 auto;
+  width: 692px;
+}
+
+/* line 71, scss/_home.scss */
+.behindvideo iframe {
+  padding: 20px 56px;
+}
+
+/* line 75, scss/_home.scss */
+#officialsite {
+  color: #0a0a0a;
+  text-decoration: underline;
+}
+
+/* line 79, scss/_home.scss */
+.maindiv {
+  width: 960px;
+  height: 642px;
+  padding-bottom: 30px;
+}
+
+/* line 84, scss/_home.scss */
+.findmore {
+  padding: 30px 0px;
+}
+
+/* line 88, scss/_home.scss */
+ifarme {
+  margin: 0 auto;
+}
+
+/* line 93, scss/_home.scss */
+h2 {
+  font-size: 21px;
+  font-family: futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
+  line-height: 0px;
+  margin: 40px 0px;
+}
+
+/* line 101, scss/_home.scss */
+#trailer1, #trailer2 {
+  padding: 10px 0;
+}
+
+/* line 105, scss/_home.scss */
+.behindvideo p {
+  text-align: justify;
+}
+
+/* line 108, scss/_home.scss */
+#mainphoto {
+  opacity: 1;
+  background-image: url(home/ratatouille.jpg);
+  height: 570px;
+  width: 440px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 119, scss/_home.scss */
+header {
+  height: 80px;
+  margin: 0 auto;
+  width: 950px;
+  padding: 29px;
+}
+
+/* line 126, scss/_home.scss */
+.firstvideo {
+  padding-top: 3px;
+}
+
+/* line 129, scss/_home.scss */
+.trailer1vernagir p {
+  text-align: justify;
+}
+
+/* line 133, scss/_home.scss */
+.text p {
+  margin: 20px 0;
+  line-height: 24px;
+  text-align: justify;
+}
+
+/* line 138, scss/_home.scss */
+span {
+  margin-left: 10px;
+}
+
+/* line 141, scss/_home.scss */
+#facebook {
+  display: inline-block;
+  background-image: url("logo/facebook.png");
+  width: 20px;
+  height: 20px;
+}
+
+/* line 147, scss/_home.scss */
+#facebook:hover {
+  background: url("logo/facebookhover.png");
+}
+
+/* line 151, scss/_home.scss */
+#twitter {
+  display: inline-block;
+  background-image: url("logo/twitter.png");
+  height: 20px;
+  width: 20px;
+}
+
+/* line 157, scss/_home.scss */
+#twitter:hover {
+  background: url("logo/twitterhover.png");
+}
+
+/* line 163, scss/_home.scss */
+.leftFooter {
+  width: 300px;
+  float: left;
+  display: inline;
+  color: #ffffff;
+  font-family: futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
+}
+
+/* line 171, scss/_home.scss */
+.rightFooter {
+  width: 500px;
+  float: right;
+  text-align: right;
+}
+
+/* line 179, scss/_home.scss */
+.footerdiv {
+  margin: 0 auto;
+  width: 960px;
+  padding: 50px 0;
+}
+
+/* line 184, scss/_home.scss */
+.trailer1vernagir p, .characterstext .linkstext {
+  font-size: 17px;
+}
+
+/* line 188, scss/_home.scss */
+.characterimgleft {
+  margin: 0 20px 20px 0;
+  float: left;
+}
+
+/* line 193, scss/_home.scss */
+.characterimgright {
+  margin: 0 20px 0 20px;
+  float: right;
+}
+
+/* line 197, scss/_home.scss */
+.characters {
+  padding: 0 60px;
+  height: 235px;
+}
+
+/* line 203, scss/_home.scss */
+.characters p {
+  width: 822px;
+  margin: 10px 20px 10px 0px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+/* line 209, scss/_home.scss */
+.characters span {
+  margin-top: 33px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-left: 13px;
+}
+
+/* line 216, scss/_home.scss */
+.behindvideo {
+  width: 672px;
+  margin: 0 auto;
+}
+
+/* line 220, scss/_home.scss */
+.links {
+  color: #1e0fbe;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+/* line 225, scss/_home.scss */
+a:hover {
+  color: #660099;
+}
+
+/* line 228, scss/_home.scss */
+.linkstext {
+  display: inline;
+  font-size: 18px;
+}
+
+/* line 232, scss/_home.scss */
+.casttext {
+  display: inline-block;
+  padding-top: 61px;
+  padding-left: 37px;
+}
+
+/* line 237, scss/_home.scss */
+.cast {
+  width: 840px;
+  height: 192px;
+  margin: 10px 60px;
+}
+
+/* line 244, scss/_home.scss */
+.casttext p {
+  padding-left: 20px;
+  display: inline;
+  font-size: 27px;
+}
+
+/* line 249, scss/_home.scss */
+.castcharacter {
+  float: right;
+  display: inline;
+}
+
+/* line 254, scss/_home.scss */
+.castactor {
+  float: left;
+  display: inline;
+}
+
+/* line 259, scss/_home.scss */
+.find, .facebook, .twitter {
+  float: right;
+  margin-left: 5px;
+}
+
+/* line 263, scss/_home.scss */
+.find {
+  color: #ffffff;
+}
