@@ -3,7 +3,7 @@
 		<div class="castdiv">
 			<div class="cast">
 				<div class="castactor">
-					<img src="cast/PattonOswaltremy.PNG" title="Patton Oswalt" class="castimageactors" width="136" height="168"/>
+					<img src="/cast/PattonOswaltremy.PNG" title="Patton Oswalt" class="castimageactors" width="136" height="168"/>
 				</div>
 				<div class="casttext">
 					<p>Patton Oswalt   ...   Remy(voice)</p>

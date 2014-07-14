@@ -33,6 +33,10 @@ module.exports = function(grunt) {
                     'bower_components/moment/min/moment.min.js',
                     'bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js',
                     'bower_components/jquery-ui/ui/minified/jquery-ui.min.js',
+                    'bower_components/jquery-ui/ui/minified/jquery.jcarousel.min.js',
+                    'bower_components/jquery-ui/ui/minified/jquery.pikachoose.js',
+                    'bower_components/jquery-ui/ui/minified/jquery.pikachoose.min.js',
+                    'bower_components/jquery-ui/ui/minified/jquery.touchwipe.min.js',
 
                     //bootstrap must be loaded in this order
                     'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap/bootstrap.js'
