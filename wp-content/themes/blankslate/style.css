@@ -71,49 +71,52 @@ a {
 /* line 61, scss/_home.scss */
 .menu {
   font-family: futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
+  margin: 0 auto;
+  width: 960px;
+  padding: 0  0 98px 0;
 }
 
-/* line 64, scss/_home.scss */
+/* line 68, scss/_home.scss */
 .trailers {
   margin: 0 auto;
   width: 560px;
 }
 
-/* line 68, scss/_home.scss */
+/* line 72, scss/_home.scss */
 .trailersbehind {
   margin: 0 auto;
   width: 692px;
 }
 
-/* line 72, scss/_home.scss */
+/* line 76, scss/_home.scss */
 .behindvideo iframe {
   padding: 20px 56px;
 }
 
-/* line 76, scss/_home.scss */
+/* line 80, scss/_home.scss */
 #officialsite {
   color: #0a0a0a;
   text-decoration: underline;
 }
 
-/* line 80, scss/_home.scss */
+/* line 84, scss/_home.scss */
 .maindiv {
   width: 960px;
   height: 642px;
   padding-bottom: 30px;
 }
 
-/* line 85, scss/_home.scss */
+/* line 89, scss/_home.scss */
 .findmore {
   padding: 30px 0px;
 }
 
-/* line 89, scss/_home.scss */
+/* line 93, scss/_home.scss */
 ifarme {
   margin: 0 auto;
 }
 
-/* line 94, scss/_home.scss */
+/* line 98, scss/_home.scss */
 h2 {
   font-size: 21px;
   font-family: futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
@@ -121,17 +124,17 @@ h2 {
   margin: 40px 0px;
 }
 
-/* line 102, scss/_home.scss */
+/* line 106, scss/_home.scss */
 #trailer1, #trailer2 {
   padding: 10px 0;
 }
 
-/* line 106, scss/_home.scss */
+/* line 110, scss/_home.scss */
 .behindvideo p {
   text-align: justify;
 }
 
-/* line 109, scss/_home.scss */
+/* line 113, scss/_home.scss */
 #mainphoto {
   opacity: 1;
   background-image: url(home/ratatouille.jpg);
@@ -143,7 +146,7 @@ h2 {
   margin-bottom: 40px;
 }
 
-/* line 120, scss/_home.scss */
+/* line 124, scss/_home.scss */
 header {
   height: 80px;
   margin: 0 auto;
@@ -151,29 +154,29 @@ header {
   padding: 29px;
 }
 
-/* line 127, scss/_home.scss */
+/* line 131, scss/_home.scss */
 .firstvideo {
   padding-top: 3px;
 }
 
-/* line 130, scss/_home.scss */
+/* line 134, scss/_home.scss */
 .trailer1vernagir p {
   text-align: justify;
 }
 
-/* line 134, scss/_home.scss */
+/* line 138, scss/_home.scss */
 .text p {
   margin: 20px 0;
   line-height: 24px;
   text-align: justify;
 }
 
-/* line 139, scss/_home.scss */
+/* line 143, scss/_home.scss */
 span {
   margin-left: 10px;
 }
 
-/* line 142, scss/_home.scss */
+/* line 146, scss/_home.scss */
 #facebook {
   display: inline-block;
   background-image: url("logo/facebook.png");
@@ -181,12 +184,12 @@ span {
   height: 20px;
 }
 
-/* line 148, scss/_home.scss */
+/* line 152, scss/_home.scss */
 #facebook:hover {
   background: url("logo/facebookhover.png");
 }
 
-/* line 152, scss/_home.scss */
+/* line 156, scss/_home.scss */
 #twitter {
   display: inline-block;
   background-image: url("logo/twitter.png");
@@ -194,12 +197,12 @@ span {
   width: 20px;
 }
 
-/* line 158, scss/_home.scss */
+/* line 162, scss/_home.scss */
 #twitter:hover {
   background: url("logo/twitterhover.png");
 }
 
-/* line 164, scss/_home.scss */
+/* line 168, scss/_home.scss */
 .leftFooter {
   width: 300px;
   float: left;
@@ -208,44 +211,44 @@ span {
   font-family: futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
 }
 
-/* line 172, scss/_home.scss */
+/* line 176, scss/_home.scss */
 .rightFooter {
   width: 500px;
   float: right;
   text-align: right;
 }
 
-/* line 180, scss/_home.scss */
+/* line 184, scss/_home.scss */
 .footerdiv {
   margin: 0 auto;
   width: 960px;
   padding: 50px 0;
 }
 
-/* line 185, scss/_home.scss */
+/* line 189, scss/_home.scss */
 .trailer1vernagir p, .characterstext .linkstext {
   font-size: 17px;
 }
 
-/* line 189, scss/_home.scss */
+/* line 193, scss/_home.scss */
 .characterimgleft {
   margin: 0 20px 20px 0;
   float: left;
 }
 
-/* line 194, scss/_home.scss */
+/* line 198, scss/_home.scss */
 .characterimgright {
   margin: 0 20px 0 20px;
   float: right;
 }
 
-/* line 198, scss/_home.scss */
+/* line 202, scss/_home.scss */
 .characters {
   padding: 0 60px;
   height: 235px;
 }
 
-/* line 204, scss/_home.scss */
+/* line 208, scss/_home.scss */
 .characters p {
   width: 822px;
   margin: 10px 20px 10px 0px;
@@ -253,7 +256,7 @@ span {
   text-align: justify;
 }
 
-/* line 210, scss/_home.scss */
+/* line 214, scss/_home.scss */
 .characters span {
   margin-top: 33px;
   margin-right: 15px;
@@ -261,70 +264,71 @@ span {
   margin-left: 13px;
 }
 
-/* line 217, scss/_home.scss */
+/* line 221, scss/_home.scss */
 .behindvideo {
   width: 672px;
   margin: 0 auto;
 }
 
-/* line 221, scss/_home.scss */
+/* line 225, scss/_home.scss */
 .links {
   color: #1e0fbe;
   text-decoration: underline;
   font-size: 15px;
 }
 
-/* line 226, scss/_home.scss */
+/* line 230, scss/_home.scss */
 a:hover {
-  color: #660099;
+  color: #F5C676;
 }
 
-/* line 229, scss/_home.scss */
+/* line 233, scss/_home.scss */
 .linkstext {
   display: inline;
   font-size: 18px;
 }
 
-/* line 233, scss/_home.scss */
+/* line 237, scss/_home.scss */
 .casttext {
   display: inline-block;
   padding-top: 61px;
   padding-left: 37px;
 }
 
-/* line 238, scss/_home.scss */
+/* line 242, scss/_home.scss */
 .cast {
   width: 840px;
   height: 192px;
   margin: 10px 60px;
 }
 
-/* line 245, scss/_home.scss */
+/* line 249, scss/_home.scss */
 .casttext p {
   padding-left: 20px;
   display: inline;
   font-size: 27px;
 }
 
-/* line 250, scss/_home.scss */
+/* line 254, scss/_home.scss */
 .castcharacter {
   float: right;
   display: inline;
 }
 
-/* line 255, scss/_home.scss */
+/* line 259, scss/_home.scss */
 .castactor {
   float: left;
   display: inline;
 }
 
-/* line 260, scss/_home.scss */
+/* line 264, scss/_home.scss */
 .find, .facebook, .twitter {
   float: right;
   margin-left: 5px;
+  margin-top: 20px;
 }
 
-/* line 264, scss/_home.scss */
+/* line 270, scss/_home.scss */
 .find {
   color: #ffffff;
 }

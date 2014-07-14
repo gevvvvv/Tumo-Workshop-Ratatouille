@@ -78,3 +78,32 @@ function page_body_id() {
 
     return $page;
 }
+add_action( 'init', 'post_type_characters' );
+
+function post_type_characters() {
+$labels = array(
+    'name'               => _x( 'Characters', 'post type general name' ),
+    'singular_name'      => _x( 'Character', 'post type singular name' ),
+    'add_new'            => _x( 'Add New', 'character' ),
+    'add_new_item'       => __( 'Add New Character' ),
+    'edit_item'          => __( 'Edit Character' ),
+    'new_item'           => __( 'New Character' ),
+    'all_items'          => __( 'All Characters' ),
+    'view_item'          => __( 'View Character' ),
+    'search_items'       => __( 'Search Characters' ),
+    'not_found'          => __( 'No characters found' ),
+    'not_found_in_trash' => __( 'No characters found in the Trash' ),
+    'parent_item_colon'  => '',
+    'menu_name'          => 'Characters'
+);
+$args = array(
+    'labels'        => $labels,
+    'description'   => 'Holds our characters and character specific data',
+    'public'        => true,
+    'menu_position' => 5,
+    'supports'      => array( 'title', 'editor', 'thumbnail', ),
+    'has_archive'   => true,
+    'rewrite'       => array('slug' => 'characters')
+);
+register_post_type( 'character', $args );
+}
