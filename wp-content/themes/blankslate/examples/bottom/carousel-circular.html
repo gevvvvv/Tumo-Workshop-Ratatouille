@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<link type="text/css" href="../../styles/bottom.css" rel="stylesheet" />
+		<script type="text/javascript" src=" https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+        <script type="text/javascript" src="../../lib/jquery.jcarousel.min.js"></script>
+		<script type="text/javascript" src="../../lib/jquery.pikachoose.min.js"></script>
+		<script type="text/javascript" src="../../lib/jquery.touchwipe.min.js"></script>
+		<script language="javascript">
+			$(document).ready(
+				function (){
+					$("#pikame").PikaChoose({carousel:true,carouselOptions:{wrap:'circular'}});
+				});
+		</script>
+
+</head>
+<body>
+<!-- not really needed, i'm using it to center the gallery. -->
+<div class="pikachoose">
+Basic example - with looping carousel
+	<ul id="pikame" class="jcarousel-skin-pika">
+		<li><a href="http://www.pikachoose.com"><img src="../../1.jpg"/></a></li>
+		<li><a href="http://www.pikachoose.com"><img src="../../2.jpg"/></a></li>
+		<li><a href="http://www.pikachoose.com"><img src="../../3.jpg"/></a></li>
+		<li><a href="http://www.pikachoose.com"><img src="../../4.jpg"/></a></li>
+		<li><a href="http://www.pikachoose.com"><img src="../../5.jpg"/></a></li>
+	</ul>
+</div>
+
+</body>
+</html>

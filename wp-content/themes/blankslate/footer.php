@@ -9,7 +9,7 @@
 			<div class="rightFooter">
 				
 				<div class="facebook">
-					<a  href="http://www.facebook.com" id="facebook" target="_blank"></a>
+					<a  href="https://www.facebook.com/PixarRatatouille" id="facebook" target="_blank"></a>
 				</div>
 				<div class="twitter">
 					 <a  href="http://www.twitter.com" id="twitter" target="_blank"></a>

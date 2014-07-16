@@ -60,6 +60,10 @@ font-size:25px;
 }
 .menu{
 font-family:futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
+margin: 0 auto;
+width: 960px;
+padding: 0  0 98px 0;
+
 }
 .trailers{
 margin:0 auto;
@@ -224,7 +228,7 @@ text-decoration:underline;
 font-size: 15px;
 }
 a:hover{
-color: rgb(102,0,153);
+color: #F5C676;
 }
 .linkstext{
 display: inline;
@@ -259,7 +263,9 @@ display:inline;
 
 .find, .facebook, .twitter{
 float:right;
-margin-left:5px;}
+margin-left:5px;
+margin-top:20px;
+}
 
 .find{
 color: #ffffff;
