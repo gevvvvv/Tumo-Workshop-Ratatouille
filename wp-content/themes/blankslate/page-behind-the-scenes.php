@@ -1,7 +1,4 @@
-
 	<?php get_header(); ?>
-
-
     <div class="trailersbehind">
 
         <div class="behindvideo">
@@ -35,9 +32,4 @@
 
         </div>
     </div>
-
-
-
-
-
 		<?php get_footer(); ?>

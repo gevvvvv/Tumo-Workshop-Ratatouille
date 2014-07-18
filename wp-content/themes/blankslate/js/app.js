@@ -1,7 +1,7 @@
 app = {}, UTIL = {
     fire: function(n, i, o) {
-        var e = app;
-        i = void 0 === i ? "init" : i, "" !== n && e[n] && "function" == typeof e[n][i] && e[n][i](o);
+        var a = app;
+        i = void 0 === i ? "init" : i, "" !== n && a[n] && "function" == typeof a[n][i] && a[n][i](o);
     },
     loadEvents: function() {
         var n = document.body.id;
@@ -12,6 +12,22 @@ app = {}, UTIL = {
 }, $(document).ready(UTIL.loadEvents), app.common = {
     init: function() {},
     finalize: function() {}
+}, app.eskizas = {
+    init: function() {
+        $(document).ready(function() {
+            $("#pikame").PikaChoose({
+                carousel: !0
+            });
+        });
+    }
+}, app.gallery = {
+    init: function() {
+        $(document).ready(function() {
+            $("#pikame").PikaChoose({
+                carousel: !0
+            });
+        });
+    }
 }, app.home = {
     init: function() {
         alert("Hello World!");

@@ -23,9 +23,9 @@
         $Img = $item->meta;
         $ImgUrl = $Img["image"]["url"];
         if($i%2 == 0)
-            $ImgClass = "characterimgleft";
-        else
             $ImgClass = "characterimgright";
+        else
+            $ImgClass = "characterimgleft";
         $i++;
         echo("<div class='characters'>
                 <img src=\"$ImgUrl\" height='220px' width='220px' class=\"$ImgClass\">
