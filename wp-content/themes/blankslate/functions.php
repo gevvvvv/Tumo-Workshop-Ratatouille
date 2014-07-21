@@ -78,6 +78,11 @@ function page_body_id() {
 
     return $page;
 }
+
+
+
+
+
 add_action( 'init', 'post_type_characters' );
 
 function post_type_characters() {
@@ -107,3 +112,37 @@ $args = array(
 );
 register_post_type( 'character', $args );
 }
+
+
+
+
+add_action( 'init', 'post_type_cast' );
+
+function post_type_cast() {
+    $labels = array(
+        'name'               => _x( 'Cast-members', 'post type general name' ),
+        'singular_name'      => _x( 'Cast-member', 'post type singular name' ),
+        'add_new'            => _x( 'Add New', 'Cast-member' ),
+        'add_new_item'       => __( 'Add New Cast-member' ),
+        'edit_item'          => __( 'Edit Cast-member' ),
+        'new_item'           => __( 'New Cast-member' ),
+        'all_items'          => __( 'All Cast-members' ),
+        'view_item'          => __( 'View Cast-member' ),
+        'search_items'       => __( 'Search Cast-members' ),
+        'not_found'          => __( 'No Cast-members found' ),
+        'not_found_in_trash' => __( 'No Cast-members found in the Trash' ),
+        'parent_item_colon'  => '',
+        'menu_name'          => 'Cast'
+    );
+    $args = array(
+        'labels'        => $labels,
+        'description'   => 'Holds our Cast-members and Cast-member specific data',
+        'public'        => true,
+        'menu_position' => 5,
+        'supports'      => array( 'title', 'editor', 'thumbnail', ),
+        'has_archive'   => true,
+        'rewrite'       => array('slug' => 'cast-type')
+    );
+    register_post_type( 'cast', $args );
+}
+

@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-app.gallery = {
+app.eskizas = {
     init:function  () {
         $(document).ready(
         function (){

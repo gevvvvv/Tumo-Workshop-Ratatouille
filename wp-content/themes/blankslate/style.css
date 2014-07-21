@@ -401,6 +401,7 @@ a {
 .spantext {
   font-weight: bold;
   font-size: 25px;
+  float: left;
 }
 
 /* line 61, scss/_home.scss */
