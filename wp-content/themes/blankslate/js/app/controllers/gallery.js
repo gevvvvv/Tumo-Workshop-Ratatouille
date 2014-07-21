@@ -1,0 +1,5 @@
+app.gallery = {
+	init: function(){
+		
+	}	
+};
