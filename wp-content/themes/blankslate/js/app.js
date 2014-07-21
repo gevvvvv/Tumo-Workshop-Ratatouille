@@ -28,4 +28,6 @@ app = {}, UTIL = {
             });
         });
     }
+}, app.home = {
+    init: function() {}
 };

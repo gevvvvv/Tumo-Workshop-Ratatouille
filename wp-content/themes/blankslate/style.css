@@ -1,3 +1,338 @@
+/* line 2, scss/_global.scss */
+body {
+  background-image: url(logo/1447672.png);
+  background-attachment: fixed;
+  font-family: "Times New Roman",Georgia,Serif;
+  font-size: 18px;
+}
+
+/* line 9, scss/_global.scss */
+.background {
+  background-color: #fff5f5;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  width: 960px;
+}
+
+/* line 17, scss/_global.scss */
+.logodiv {
+  border: 0;
+  float: left;
+}
+
+/* line 22, scss/_global.scss */
+li {
+  display: block;
+  float: right;
+  font-size: 18px;
+  padding: 0 16px;
+  line-height: 50px;
+}
+
+/* line 29, scss/_global.scss */
+a {
+  color: white;
+  text-decoration: none;
+  display: inline;
+}
+
+/* line 34, scss/_global.scss */
+#menudiv {
+  padding-top: 33px;
+}
+
+/* line 38, scss/_global.scss */
+.menuul li a:hover {
+  color: #fad388;
+}
+
+/* line 42, scss/_global.scss */
+.menuul:hover {
+  display: block;
+}
+
+/* line 45, scss/_global.scss */
+.text {
+  color: #0A0A0A;
+  float: right;
+  font-size: 19px;
+  height: 590px;
+  width: 364px;
+  margin-right: 55px;
+  margin-top: 41px;
+}
+
+/* line 55, scss/_global.scss */
+.spantext {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* line 61, scss/_global.scss */
+.menu {
+  font-family: futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
+  margin: 0 auto;
+  width: 960px;
+  padding: 0  0 98px 0;
+}
+
+/* line 68, scss/_global.scss */
+.trailers {
+  margin: 0 auto;
+  width: 560px;
+}
+
+/* line 72, scss/_global.scss */
+.trailersbehind {
+  margin: 0 auto;
+  width: 692px;
+}
+
+/* line 76, scss/_global.scss */
+.behindvideo iframe {
+  padding: 20px 56px;
+}
+
+/* line 80, scss/_global.scss */
+#officialsite {
+  color: #0a0a0a;
+  text-decoration: underline;
+}
+
+/* line 84, scss/_global.scss */
+.maindiv {
+  width: 960px;
+  height: 642px;
+  padding-bottom: 30px;
+}
+
+/* line 89, scss/_global.scss */
+.findmore {
+  padding: 30px 0px;
+}
+
+/* line 93, scss/_global.scss */
+ifarme {
+  margin: 0 auto;
+}
+
+/* line 98, scss/_global.scss */
+h2 {
+  font-size: 21px;
+  font-family: futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
+  line-height: 0px;
+  margin: 40px 0px;
+}
+
+/* line 106, scss/_global.scss */
+#trailer1, #trailer2 {
+  padding: 10px 0;
+}
+
+/* line 110, scss/_global.scss */
+.behindvideo p {
+  text-align: justify;
+}
+
+/* line 113, scss/_global.scss */
+#mainphoto {
+  opacity: 1;
+  background-image: url(home/ratatouille.jpg);
+  height: 570px;
+  width: 440px;
+  float: left;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 124, scss/_global.scss */
+header {
+  height: 80px;
+  margin: 0 auto;
+  width: 950px;
+  padding: 29px;
+}
+
+/* line 131, scss/_global.scss */
+.firstvideo {
+  padding-top: 3px;
+}
+
+/* line 134, scss/_global.scss */
+.trailer1vernagir p {
+  text-align: justify;
+}
+
+/* line 138, scss/_global.scss */
+.text p {
+  margin: 20px 0;
+  line-height: 24px;
+  text-align: justify;
+}
+
+/* line 143, scss/_global.scss */
+span {
+  margin-left: 10px;
+}
+
+/* line 146, scss/_global.scss */
+#facebook {
+  display: inline-block;
+  background-image: url("logo/facebook.png");
+  width: 20px;
+  height: 20px;
+}
+
+/* line 152, scss/_global.scss */
+#facebook:hover {
+  background: url("logo/facebookhover.png");
+}
+
+/* line 156, scss/_global.scss */
+#twitter {
+  display: inline-block;
+  background-image: url("logo/twitter.png");
+  height: 20px;
+  width: 20px;
+}
+
+/* line 162, scss/_global.scss */
+#twitter:hover {
+  background: url("logo/twitterhover.png");
+}
+
+/* line 168, scss/_global.scss */
+.leftFooter {
+  width: 300px;
+  float: left;
+  display: inline;
+  color: #ffffff;
+  font-family: futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
+}
+
+/* line 176, scss/_global.scss */
+.rightFooter {
+  width: 500px;
+  float: right;
+  text-align: right;
+}
+
+/* line 184, scss/_global.scss */
+.footerdiv {
+  margin: 0 auto;
+  width: 960px;
+  padding: 50px 0;
+}
+
+/* line 189, scss/_global.scss */
+.trailer1vernagir p, .characterstext .linkstext {
+  font-size: 17px;
+}
+
+/* line 193, scss/_global.scss */
+.characterimgleft {
+  margin: 0 20px 20px 0;
+  float: left;
+}
+
+/* line 198, scss/_global.scss */
+.characterimgright {
+  margin: 0 20px 0 20px;
+  float: right;
+}
+
+/* line 202, scss/_global.scss */
+.characters {
+  padding: 0 60px;
+  height: 235px;
+}
+
+/* line 208, scss/_global.scss */
+.characters p {
+  width: 822px;
+  margin: 10px 20px 10px 0px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+/* line 214, scss/_global.scss */
+.characters span {
+  margin-top: 33px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-left: 13px;
+}
+
+/* line 221, scss/_global.scss */
+.behindvideo {
+  width: 672px;
+  margin: 0 auto;
+}
+
+/* line 225, scss/_global.scss */
+.links {
+  color: #1e0fbe;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+/* line 230, scss/_global.scss */
+a:hover {
+  color: #F5C676;
+}
+
+/* line 233, scss/_global.scss */
+.linkstext {
+  display: inline;
+  font-size: 18px;
+}
+
+/* line 237, scss/_global.scss */
+.casttext {
+  display: inline-block;
+  padding-top: 61px;
+  padding-left: 37px;
+}
+
+/* line 242, scss/_global.scss */
+.cast {
+  width: 840px;
+  height: 192px;
+  margin: 10px 60px;
+}
+
+/* line 249, scss/_global.scss */
+.casttext p {
+  padding-left: 20px;
+  display: inline;
+  font-size: 27px;
+}
+
+/* line 254, scss/_global.scss */
+.castcharacter {
+  float: right;
+  display: inline;
+}
+
+/* line 259, scss/_global.scss */
+.castactor {
+  float: left;
+  display: inline;
+}
+
+/* line 264, scss/_global.scss */
+.find, .facebook, .twitter {
+  float: right;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+/* line 270, scss/_global.scss */
+.find {
+  color: #ffffff;
+}
+
 /* line 2, scss/_home.scss */
 body {
   background-image: url(logo/1447672.png);
