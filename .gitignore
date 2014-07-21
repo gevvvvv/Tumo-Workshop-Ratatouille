@@ -3,5 +3,5 @@ node_modules
 bower_components
 .idea
 app.js
-         vendor.js
-         style.css
+                           vendor.js
+                           style.css
