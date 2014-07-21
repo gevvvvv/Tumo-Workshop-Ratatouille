@@ -1,0 +1,60 @@
+/*if you just want to adjust the size of the stage and the thumbnails, you can do so by editing the following lines: */
+@import url("base.css");
+/*if you just want to adjust the size of the stage and the thumbnails, you can do so by editing the following lines: */
+/* line 5, scss/right.scss */
+.pika-thumbs li {
+  width: 90px;
+  height: 55px;
+}
+
+/* line 6, scss/right.scss */
+.pikachoose {
+  width: 680px;
+  position: relative;
+}
+
+/* line 7, scss/right.scss */
+#pikame {
+  width: 150px;
+}
+
+/* line 8, scss/right.scss */
+.pika-thumbs {
+  margin: 10px 0 0 17px;
+  width: 250px;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+/* line 9, scss/right.scss */
+.pika-thumbs li {
+  margin: 5px 5px;
+}
+
+/* jCarousel Styles */
+/*if you're not using the carousel you can delete everything below this */
+/* line 13, scss/right.scss */
+.jcarousel-skin-pika {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+}
+
+/* line 14, scss/right.scss */
+.jcarousel-skin-pika .jcarousel-container-vertical {
+  width: 125px;
+  height: 230px;
+  overflow: hidden;
+}
+
+/* line 15, scss/right.scss */
+.jcarousel-skin-pika .jcarousel-clip-vertical {
+  width: 125px;
+  height: 230px;
+}
+
+/* line 16, scss/right.scss */
+.jcarousel-skin-pika .jcarousel-item-vertical {
+  margin-top: 10px;
+}

@@ -1,0 +1,71 @@
+/* line 1, scss/transitions.scss */
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+/* line 2, scss/transitions.scss */
+a {
+  color: white;
+}
+
+/* line 4, scss/transitions.scss */
+.pika-wrap {
+  width: 520px;
+  margin: 0 auto;
+}
+
+/* line 6, scss/transitions.scss */
+.pika-image {
+  position: relative;
+  height: 340px;
+  width: 500px;
+}
+
+/*position image holders */
+/* line 8, scss/transitions.scss */
+.pika-image .animation, .pika-image .main-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* line 9, scss/transitions.scss */
+.pika-image .animation {
+  display: none;
+  z-index: 2;
+}
+
+/* line 10, scss/transitions.scss */
+.pika-image img {
+  border: 0;
+}
+
+/* line 12, scss/transitions.scss */
+.pika-image .caption {
+  position: absolute;
+  background: url(../../assets/images/75-black.png);
+  border: 1px solid #141414;
+  font-size: 11px;
+  color: #fafafa;
+  padding: 10px;
+  text-align: right;
+  bottom: 50px;
+  right: 10px;
+}
+
+/* line 13, scss/transitions.scss */
+.pika-image .caption p {
+  padding: 0;
+  margin: 0;
+  line-height: 14px;
+}
+
+/* line 14, scss/transitions.scss */
+.pika-textnav {
+  display: none;
+}
+
+/* line 15, scss/transitions.scss */
+ul {
+  display: none;
+}

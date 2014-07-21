@@ -1,0 +1,19 @@
+@import url("base.css");
+/* jCarousel Styles */
+/*if you're not using the carousel you can delete everything below this */
+/* line 5, scss/bottom.scss */
+.jcarousel-skin-pika .jcarousel-container-horizontal {
+  padding: 15px 20px;
+  overflow: hidden;
+}
+
+/* line 6, scss/bottom.scss */
+.jcarousel-skin-pika .jcarousel-clip-horizontal {
+  height: 90px;
+  width: 485px;
+}
+
+/* line 7, scss/bottom.scss */
+.jcarousel-skin-pika .jcarousel-item-horizontal {
+  margin-right: 8px;
+}

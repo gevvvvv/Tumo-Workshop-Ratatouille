@@ -1,0 +1,239 @@
+/*if you just want to adjust the size of the stage and the thumbnails, you can do so by editing the following lines: */
+/* line 2, scss/css3.scss */
+.pika-thumbs li {
+  width: 144px;
+  height: 74px;
+}
+
+/* line 3, scss/css3.scss */
+.pika-stage {
+  height: 250px;
+}
+
+/* line 6, scss/css3.scss */
+body {
+  font-family: sans-serif;
+  background: #FCFCFC;
+}
+
+/* line 7, scss/css3.scss */
+a {
+  color: white;
+}
+
+/* line 8, scss/css3.scss */
+.pikachoose {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* line 9, scss/css3.scss */
+.pika-stage {
+  position: relative;
+  border: 3px solid #010101;
+  -moz-box-shadow: 5px 5px 2px #888;
+  -webkit-box-shadow: 5px 5px 2px #888;
+  box-shadow: 5px 5px 2px #888;
+}
+
+/*if you change the padding on pika-stage you must adjust the top left of this to match! */
+/* line 13, scss/css3.scss */
+.pika-stage .main-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* line 14, scss/css3.scss */
+.pika-stage .pika-aniwrap {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* line 15, scss/css3.scss */
+.pika-stage .pika-ani {
+  position: relative;
+  display: none;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+/* line 16, scss/css3.scss */
+.pika-stage img {
+  border: 0;
+  height: 100%;
+}
+
+/* line 18, scss/css3.scss */
+.pika-stage .caption {
+  position: absolute;
+  background: url(75-black.png);
+  border: 1px solid #141414;
+  font-size: 11px;
+  color: #fafafa;
+  padding: 10px;
+  text-align: right;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* line 20, scss/css3.scss */
+.pika-stage .caption p {
+  padding: 0;
+  margin: 0;
+  line-height: 14px;
+}
+
+/* line 22, scss/css3.scss */
+.pika-imgnav a {
+  position: absolute;
+  text-indent: -5000px;
+  display: block;
+  z-index: 3;
+  cursor: pointer;
+}
+
+/* line 23, scss/css3.scss */
+.pika-imgnav a.previous {
+  width: 20px;
+  height: 20px;
+  border-left: 5px solid #FFF;
+  border-top: 5px solid #FFF;
+  opacity: 0;
+  -webkit-transition: opacity 300ms linear;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 45%;
+  left: 10px;
+}
+
+/* line 25, scss/css3.scss */
+.pika-imgnav a.next {
+  width: 20px;
+  height: 20px;
+  border-right: 5px solid #FFF;
+  border-top: 5px solid #FFF;
+  opacity: 0;
+  -webkit-transition: opacity 300ms linear;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 45%;
+  right: 10px;
+}
+
+/* line 27, scss/css3.scss */
+.pika-imgnav a:hover {
+  opacity: .6;
+  -webkit-transition: opacity 300ms linear;
+}
+
+/* line 29, scss/css3.scss */
+.pika-imgnav a.play {
+  border-color: transparent transparent rgba(255, 255, 255, 0.7);
+  border-style: solid;
+  border-width: 0 0 25px 25px;
+  height: 0;
+  width: 0;
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 14px;
+  left: 47%;
+  display: none;
+}
+
+/* line 31, scss/css3.scss */
+.pika-imgnav a.pause {
+  display: none;
+  border-left: 5px solid rgba(255, 255, 255, 0.7);
+  border-right: 5px solid rgba(255, 255, 255, 0.8);
+  height: 30px;
+  width: 14px;
+  position: absolute;
+  top: 10px;
+  left: 47%;
+}
+
+/* line 33, scss/css3.scss */
+.pika-textnav {
+  display: none;
+}
+
+/* line 35, scss/css3.scss */
+.pika-thumbs {
+  margin: 10px 0 0 17px;
+  padding: 0;
+}
+
+/* line 36, scss/css3.scss */
+.pika-thumbs li {
+  float: left;
+  list-style-type: none;
+  margin: 0 5px;
+  border: 1px solid #000;
+  cursor: pointer;
+  -moz-box-shadow: 3px 3px 2px #888;
+  -webkit-box-shadow: 3px 3px 2px #888;
+  box-shadow: 3px 3px 2px #888;
+}
+
+/* line 39, scss/css3.scss */
+.pika-thumbs li:last {
+  margin: 0;
+}
+
+/* line 40, scss/css3.scss */
+.pika-thumbs li .clip {
+  position: relative;
+  height: 100%;
+  text-align: center;
+  vertical-align: center;
+  overflow: hidden;
+}
+
+/*for the tool tips*/
+/* line 43, scss/css3.scss */
+.pika-tooltip {
+  font-size: 12px;
+  position: absolute;
+  color: white;
+  padding: 3px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 3px solid black;
+}
+
+/* line 44, scss/css3.scss */
+.pika-counter {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 11px;
+  padding: 3px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* jCarousel Styles */
+/*if you're not using the carousel you can delete everything below this */
+/* line 49, scss/css3.scss */
+.jcarousel-skin-pika .jcarousel-container-horizontal {
+  padding: 15px 20px;
+  overflow: hidden;
+}
+
+/* line 50, scss/css3.scss */
+.jcarousel-skin-pika .jcarousel-clip-horizontal {
+  height: 90px;
+  width: 485px;
+}
+
+/* line 51, scss/css3.scss */
+.jcarousel-skin-pika .jcarousel-item-horizontal {
+  margin-right: 10px;
+}

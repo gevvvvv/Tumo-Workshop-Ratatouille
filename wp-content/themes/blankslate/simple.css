@@ -1,0 +1,91 @@
+/* line 1, scss/simple.scss */
+body {
+  font-family: helvetica, sans-serif;
+}
+
+/* line 2, scss/simple.scss */
+a {
+  color: white;
+}
+
+/* line 4, scss/simple.scss */
+.pikachoose {
+  width: 520px;
+  margin: 0 auto;
+}
+
+/* line 5, scss/simple.scss */
+.pika-stage {
+  position: relative;
+  width: 500px;
+  height: 250px;
+  -moz-box-shadow: 10px 10px 5px #888;
+  -webkit-box-shadow: 10px 10px 5px #888;
+  box-shadow: 10px 10px 5px #888;
+  border: 2px solid black;
+}
+
+/* line 8, scss/simple.scss */
+.pika-stage .pika-aniwrap, .pika-stage .main-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 9, scss/simple.scss */
+.pika-stage .pika-aniwrap {
+  width: 100%;
+}
+
+/* line 10, scss/simple.scss */
+.pika-stage .pika-ani {
+  position: relative;
+  display: none;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+/* line 11, scss/simple.scss */
+.pika-stage img {
+  border: 0;
+  height: 100%;
+}
+
+/* line 13, scss/simple.scss */
+.pika-stage .caption {
+  position: absolute;
+  background: #000;
+  background: rgba(0, 0, 0, 0.75);
+  border: 1px solid #141414;
+  font-size: 11px;
+  color: #fafafa;
+  padding: 10px;
+  text-align: right;
+  bottom: 20px;
+  right: 10px;
+}
+
+/* line 14, scss/simple.scss */
+.pika-stage .caption p {
+  padding: 0;
+  margin: 0;
+  line-height: 14px;
+}
+
+/* line 15, scss/simple.scss */
+.pika-textnav, .pika-imgnav {
+  display: none;
+}
+
+/* line 16, scss/simple.scss */
+.pika-counter {
+  position: absolute;
+  bottom: -20px;
+  left: 15px;
+  font-size: 11px;
+}
+
+/* line 18, scss/simple.scss */
+#pikame {
+  display: none;
+}

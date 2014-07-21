@@ -8,10 +8,7 @@
 
 app.gallery = {
     init:function  () {
-        $(document).ready(
-        function (){
-            $("#pikame").PikaChoose({carousel:true});
-        });
+        $("#pikame").PikaChoose({carousel:true});
 
     }
 };

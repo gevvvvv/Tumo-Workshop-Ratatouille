@@ -2,6 +2,3 @@ node_modules
 .sass-cache
 bower_components
 .idea
-app.js
-vendor.js
-style.css

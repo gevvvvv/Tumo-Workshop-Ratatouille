@@ -8,10 +8,7 @@
 
 app.eskizas = {
     init:function  () {
-        $(document).ready(
-        function (){
             $("#pikame").PikaChoose({carousel:true});
-        });
 
     }
 };
