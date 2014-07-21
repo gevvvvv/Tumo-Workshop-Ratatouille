@@ -670,50 +670,31 @@ a:hover {
   color: #ffffff;
 }
 
-/* jCarousel Styles */
-/*if you're not using the carousel you can delete everything below this */
-/* line 5, scss/_bottom.scss */
-.jcarousel-skin-pika .jcarousel-container-horizontal {
-  padding: 15px 20px;
-  overflow: hidden;
-}
-
-/* line 6, scss/_bottom.scss */
-.jcarousel-skin-pika .jcarousel-clip-horizontal {
-  height: 90px;
-  width: 485px;
-}
-
-/* line 7, scss/_bottom.scss */
-.jcarousel-skin-pika .jcarousel-item-horizontal {
-  margin-right: 8px;
-}
-
 /* Just for the example. Fee free to delete these three lines */
-/* line 2, scss/_base.scss */
+/* line 2, bower_components/pikachoose/styles/base.scss */
 body {
   font-family: Helvetica, sans-serif;
 }
 
-/* line 3, scss/_base.scss */
+/* line 3, bower_components/pikachoose/styles/base.scss */
 a {
   color: white;
 }
 
-/* line 4, scss/_base.scss */
+/* line 4, bower_components/pikachoose/styles/base.scss */
 .pikachoose {
-  width: 826px;
+  width: 520px;
   margin: 0 auto;
 }
 
 /* Style the thumbnails */
-/* line 7, scss/_base.scss */
+/* line 7, bower_components/pikachoose/styles/base.scss */
 .pika-thumbs {
   padding: 0 16px;
   height: 75px;
 }
 
-/* line 8, scss/_base.scss */
+/* line 8, bower_components/pikachoose/styles/base.scss */
 .pika-thumbs li {
   width: 144px;
   height: 74px;
@@ -729,7 +710,7 @@ a {
   cursor: pointer;
 }
 
-/* line 10, scss/_base.scss */
+/* line 10, bower_components/pikachoose/styles/base.scss */
 .pika-thumbs li .clip {
   position: relative;
   height: 100%;
@@ -739,27 +720,27 @@ a {
 }
 
 /* The stage is the wrapper. The image fills 100% the height of the stage */
-/* line 13, scss/_base.scss */
+/* line 13, bower_components/pikachoose/styles/base.scss */
 .pika-stage, .pika-textnav {
-  width: 801px;
+  width: 500px;
 }
 
-/* line 14, scss/_base.scss */
+/* line 14, bower_components/pikachoose/styles/base.scss */
 .pika-stage {
   position: relative;
   background: #fafafa;
   border: 1px solid #e5e5e5;
-  padding: 20px 10px 40px 10px;
+  padding: 10px 10px 40px 10px;
   text-align: center;
-  height: 425px;
+  height: 250px;
 }
 
-/* line 15, scss/_base.scss */
+/* line 15, bower_components/pikachoose/styles/base.scss */
 .pika-stage img {
   height: 100%;
 }
 
-/* line 16, scss/_base.scss */
+/* line 16, bower_components/pikachoose/styles/base.scss */
 .pika-stage .caption {
   position: absolute;
   background: #000;
@@ -773,7 +754,7 @@ a {
   right: 10px;
 }
 
-/* line 18, scss/_base.scss */
+/* line 18, bower_components/pikachoose/styles/base.scss */
 .pika-stage .caption p {
   padding: 0;
   margin: 0;
@@ -781,7 +762,7 @@ a {
 }
 
 /* Ths play, pause, prev and next buttons */
-/* line 21, scss/_base.scss */
+/* line 21, bower_components/pikachoose/styles/base.scss */
 .pika-imgnav a {
   position: absolute;
   text-indent: -5000px;
@@ -789,7 +770,7 @@ a {
   z-index: 3;
 }
 
-/* line 22, scss/_base.scss */
+/* line 22, bower_components/pikachoose/styles/base.scss */
 .pika-imgnav a.previous {
   background: url(prev.png) no-repeat left 45%;
   height: 100%;
@@ -799,7 +780,7 @@ a {
   cursor: pointer;
 }
 
-/* line 23, scss/_base.scss */
+/* line 23, bower_components/pikachoose/styles/base.scss */
 .pika-imgnav a.next {
   background: url(next.png) no-repeat right 45%;
   height: 100%;
@@ -809,7 +790,7 @@ a {
   cursor: pointer;
 }
 
-/* line 24, scss/_base.scss */
+/* line 24, bower_components/pikachoose/styles/base.scss */
 .pika-imgnav a.play {
   background: url(play.png) no-repeat 0% 50%;
   height: 100px;
@@ -820,7 +801,7 @@ a {
   cursor: pointer;
 }
 
-/* line 25, scss/_base.scss */
+/* line 25, bower_components/pikachoose/styles/base.scss */
 .pika-imgnav a.pause {
   background: url(pause.png) no-repeat 0% 50%;
   height: 100px;
@@ -832,7 +813,7 @@ a {
 }
 
 /* The previous and next textual buttons */
-/* line 28, scss/_base.scss */
+/* line 28, bower_components/pikachoose/styles/base.scss */
 .pika-textnav {
   overflow: hidden;
   margin: 10px 0 0 0;
@@ -840,7 +821,7 @@ a {
   position: absolute;
 }
 
-/* line 29, scss/_base.scss */
+/* line 29, bower_components/pikachoose/styles/base.scss */
 .pika-textnav a {
   font-size: 12px;
   text-decoration: none;
@@ -848,14 +829,14 @@ a {
   padding: 4px;
 }
 
-/* line 30, scss/_base.scss */
+/* line 30, bower_components/pikachoose/styles/base.scss */
 .pika-textnav a.previous {
   float: left;
   width: auto;
   display: block;
 }
 
-/* line 31, scss/_base.scss */
+/* line 31, bower_components/pikachoose/styles/base.scss */
 .pika-textnav a.next {
   float: right;
   width: auto;
@@ -863,7 +844,7 @@ a {
 }
 
 /*for the tool tips*/
-/* line 34, scss/_base.scss */
+/* line 34, bower_components/pikachoose/styles/base.scss */
 .pika-tooltip {
   font-size: 12px;
   position: absolute;
@@ -873,7 +854,7 @@ a {
   border: 3px solid black;
 }
 
-/* line 35, scss/_base.scss */
+/* line 35, bower_components/pikachoose/styles/base.scss */
 .pika-counter {
   position: absolute;
   bottom: 45px;
@@ -887,7 +868,7 @@ a {
 }
 
 /* If using user thumbnails there's a pause well the new large image loads. This is the loader for that */
-/* line 38, scss/_base.scss */
+/* line 38, bower_components/pikachoose/styles/base.scss */
 .pika-loader {
   background: url(loading.gif) 3px 3px no-repeat black;
   background-color: rgba(0, 0, 0, 0.9);
@@ -899,4 +880,276 @@ a {
   position: absolute;
   top: 15px;
   right: 15px;
+}
+
+/* jCarousel Styles */
+/*if you're not using the carousel you can delete everything below this */
+/* line 5, bower_components/pikachoose/styles/bottom.scss */
+.jcarousel-skin-pika .jcarousel-container-horizontal {
+  padding: 15px 20px;
+  overflow: hidden;
+}
+
+/* line 6, bower_components/pikachoose/styles/bottom.scss */
+.jcarousel-skin-pika .jcarousel-clip-horizontal {
+  height: 90px;
+  width: 485px;
+}
+
+/* line 7, bower_components/pikachoose/styles/bottom.scss */
+.jcarousel-skin-pika .jcarousel-item-horizontal {
+  margin-right: 10px;
+}
+
+/* line 1, bower_components/pikachoose/styles/tooltip.scss */
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+/* line 2, bower_components/pikachoose/styles/tooltip.scss */
+a {
+  color: white;
+}
+
+/* line 3, bower_components/pikachoose/styles/tooltip.scss */
+.pika-wrap {
+  width: 520px;
+  margin: 0 auto;
+}
+
+/* line 5, bower_components/pikachoose/styles/tooltip.scss */
+.pika-image {
+  position: relative;
+  height: 340px;
+  width: 500px;
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+}
+
+/*position image holders */
+/* line 7, bower_components/pikachoose/styles/tooltip.scss */
+.pika-image .animation, .pika-image .main-image {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+/* line 8, bower_components/pikachoose/styles/tooltip.scss */
+.pika-image .animation {
+  display: none;
+  z-index: 2;
+}
+
+/* line 9, bower_components/pikachoose/styles/tooltip.scss */
+.pika-image img {
+  border: 0;
+}
+
+/* line 11, bower_components/pikachoose/styles/tooltip.scss */
+.pika-image .caption {
+  position: absolute;
+  background: url(../../assets/images/75-black.png);
+  border: 1px solid #141414;
+  font-size: 11px;
+  color: #fafafa;
+  padding: 10px;
+  text-align: right;
+  bottom: 50px;
+  right: 10px;
+}
+
+/* line 12, bower_components/pikachoose/styles/tooltip.scss */
+.pika-image .caption p {
+  padding: 0;
+  margin: 0;
+  line-height: 14px;
+}
+
+/* line 14, bower_components/pikachoose/styles/tooltip.scss */
+.pika-imgnav a {
+  position: absolute;
+  text-indent: -5000px;
+  display: block;
+  z-index: 3;
+}
+
+/* line 15, bower_components/pikachoose/styles/tooltip.scss */
+.pika-imgnav a.previous {
+  background: url(../../assets/images/prev.png) no-repeat left 50%;
+  height: 340px;
+  width: 50px;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+/* line 16, bower_components/pikachoose/styles/tooltip.scss */
+.pika-imgnav a.next {
+  background: url(../../assets/images/next.png) no-repeat right 50%;
+  height: 340px;
+  width: 50px;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* line 17, bower_components/pikachoose/styles/tooltip.scss */
+.pika-imgnav a.play {
+  background: url(../../assets/images/play.png) no-repeat 50% 50%;
+  height: 100px;
+  width: 40px;
+  top: 0;
+  left: 50%;
+  display: none;
+  cursor: pointer;
+}
+
+/* line 18, bower_components/pikachoose/styles/tooltip.scss */
+.pika-imgnav a.pause {
+  background: url(../../assets/images/pause.png) no-repeat 50% 50%;
+  height: 100px;
+  width: 40px;
+  top: 0;
+  left: 50%;
+  display: none;
+  cursor: pointer;
+}
+
+/* line 20, bower_components/pikachoose/styles/tooltip.scss */
+.pika-textnav {
+  overflow: hidden;
+  margin: 10px 0 0 0;
+  bottom: 10px;
+  position: absolute;
+  width: 500px;
+}
+
+/* line 21, bower_components/pikachoose/styles/tooltip.scss */
+.pika-textnav a {
+  font-size: 12px;
+  text-decoration: none;
+  font-family: helvetica, arial, sans-serif;
+  color: #333;
+  padding: 4px;
+}
+
+/* line 22, bower_components/pikachoose/styles/tooltip.scss */
+.pika-textnav a:hover {
+  background: #e5e5e5;
+  color: #0065B2;
+}
+
+/* line 23, bower_components/pikachoose/styles/tooltip.scss */
+.pika-textnav a.previous {
+  float: left;
+  width: auto;
+  display: block;
+}
+
+/* line 24, bower_components/pikachoose/styles/tooltip.scss */
+.pika-textnav a.next {
+  float: right;
+  width: auto;
+  display: block;
+}
+
+/* line 26, bower_components/pikachoose/styles/tooltip.scss */
+.pika-thumbs {
+  margin: 10px 0 0 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* line 27, bower_components/pikachoose/styles/tooltip.scss */
+.pika-thumbs li {
+  float: left;
+  list-style-type: none;
+  width: 74px;
+  padding: 3px;
+  margin: 0 2px;
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+}
+
+/* line 28, bower_components/pikachoose/styles/tooltip.scss */
+.pika-thumbs li:last {
+  margin: 0;
+}
+
+/* line 29, bower_components/pikachoose/styles/tooltip.scss */
+.pika-thumbs li .clip {
+  position: relative;
+  width: 74px;
+  height: 74px;
+  text-align: center;
+  vertical-align: center;
+  overflow: hidden;
+}
+
+/* line 31, bower_components/pikachoose/styles/tooltip.scss */
+.clip span {
+  background-color: black;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: block;
+}
+
+/* line 32, bower_components/pikachoose/styles/tooltip.scss */
+.pika-tooltip {
+  font-size: 12px;
+  position: absolute;
+  color: white;
+  padding: 3px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 3px solid black;
+}
+
+/* line 33, bower_components/pikachoose/styles/tooltip.scss */
+ul#pikame {
+  width: 570px;
+}
+
+/* jCarousel Styles */
+/*if you're not using the carousel you can delete everything below this */
+/* line 38, bower_components/pikachoose/styles/tooltip.scss */
+.jcarousel-skin-pika .jcarousel-container-horizontal {
+  padding: 15px 30px;
+}
+
+/* line 39, bower_components/pikachoose/styles/tooltip.scss */
+.jcarousel-skin-pika .jcarousel-container-vertical {
+  width: 90px;
+  height: 350px;
+  padding: 20px 20px;
+}
+
+/* line 40, bower_components/pikachoose/styles/tooltip.scss */
+.jcarousel-skin-pika .jcarousel-clip-horizontal {
+  height: 90px;
+  width: 460px;
+}
+
+/* line 41, bower_components/pikachoose/styles/tooltip.scss */
+.jcarousel-skin-pika .jcarousel-clip-vertical {
+  width: 90px;
+  height: 350px;
+}
+
+/* line 42, bower_components/pikachoose/styles/tooltip.scss */
+.jcarousel-skin-pika .jcarousel-item-horizontal {
+  margin-right: 10px;
+}
+
+/* line 43, bower_components/pikachoose/styles/tooltip.scss */
+.jcarousel-skin-pika .jcarousel-item-vertical {
+  margin-bottom: 10px;
+}
+
+/* line 44, bower_components/pikachoose/styles/tooltip.scss */
+.jcarousel-skin-pika .jcarousel-item-placeholder {
+  background: #fff;
+  color: #000;
 }
