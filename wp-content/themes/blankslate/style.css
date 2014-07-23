@@ -351,12 +351,6 @@ body {
 }
 
 /* line 17, scss/_home.scss */
-.logodiv {
-  border: 0;
-  float: left;
-}
-
-/* line 22, scss/_home.scss */
 li {
   display: block;
   float: right;
@@ -365,29 +359,29 @@ li {
   line-height: 50px;
 }
 
-/* line 29, scss/_home.scss */
+/* line 24, scss/_home.scss */
 a {
   color: white;
   text-decoration: none;
   display: inline;
 }
 
-/* line 34, scss/_home.scss */
+/* line 29, scss/_home.scss */
 #menudiv {
   padding-top: 33px;
 }
 
-/* line 38, scss/_home.scss */
+/* line 33, scss/_home.scss */
 .menuul li a:hover {
   color: #fad388;
 }
 
-/* line 42, scss/_home.scss */
+/* line 37, scss/_home.scss */
 .menuul:hover {
   display: block;
 }
 
-/* line 45, scss/_home.scss */
+/* line 40, scss/_home.scss */
 .text {
   color: #0A0A0A;
   float: right;
@@ -398,19 +392,14 @@ a {
   margin-top: 41px;
 }
 
-/* line 55, scss/_home.scss */
+/* line 50, scss/_home.scss */
 .spantext {
   font-weight: bold;
   font-size: 25px;
   float: left;
 }
 
-/* line 62, scss/_home.scss */
-#header {
-  min-width: 960px;
-}
-
-/* line 65, scss/_home.scss */
+/* line 58, scss/_home.scss */
 .menu {
   font-family: futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
   margin: 0 auto;
@@ -418,47 +407,47 @@ a {
   padding: 0  0 98px 0;
 }
 
-/* line 72, scss/_home.scss */
+/* line 65, scss/_home.scss */
 .trailers {
   margin: 0 auto;
   width: 560px;
 }
 
-/* line 76, scss/_home.scss */
+/* line 69, scss/_home.scss */
 .trailersbehind {
   margin: 0 auto;
   width: 692px;
 }
 
-/* line 80, scss/_home.scss */
+/* line 73, scss/_home.scss */
 .behindvideo iframe {
   padding: 20px 56px;
 }
 
-/* line 84, scss/_home.scss */
+/* line 77, scss/_home.scss */
 #officialsite {
   color: #0a0a0a;
   text-decoration: underline;
 }
 
-/* line 88, scss/_home.scss */
+/* line 81, scss/_home.scss */
 .maindiv {
   width: 960px;
   height: 642px;
   padding-bottom: 30px;
 }
 
-/* line 93, scss/_home.scss */
+/* line 86, scss/_home.scss */
 .findmore {
   padding: 30px 0px;
 }
 
-/* line 97, scss/_home.scss */
+/* line 90, scss/_home.scss */
 ifarme {
   margin: 0 auto;
 }
 
-/* line 102, scss/_home.scss */
+/* line 95, scss/_home.scss */
 h2 {
   font-size: 21px;
   font-family: futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
@@ -466,17 +455,17 @@ h2 {
   margin: 40px 0px;
 }
 
-/* line 110, scss/_home.scss */
+/* line 103, scss/_home.scss */
 #trailer1, #trailer2 {
   padding: 10px 0;
 }
 
-/* line 114, scss/_home.scss */
+/* line 107, scss/_home.scss */
 .behindvideo p {
   text-align: justify;
 }
 
-/* line 117, scss/_home.scss */
+/* line 110, scss/_home.scss */
 #mainphoto {
   opacity: 1;
   background-image: url(home/ratatouille.jpg);
@@ -488,7 +477,7 @@ h2 {
   margin-bottom: 40px;
 }
 
-/* line 128, scss/_home.scss */
+/* line 121, scss/_home.scss */
 header {
   height: 80px;
   margin: 0 auto;
@@ -496,29 +485,29 @@ header {
   padding: 29px;
 }
 
-/* line 135, scss/_home.scss */
+/* line 128, scss/_home.scss */
 .firstvideo {
   padding-top: 3px;
 }
 
-/* line 138, scss/_home.scss */
+/* line 131, scss/_home.scss */
 .trailer1vernagir p {
   text-align: justify;
 }
 
-/* line 142, scss/_home.scss */
+/* line 135, scss/_home.scss */
 .text p {
   margin: 20px 0;
   line-height: 24px;
   text-align: justify;
 }
 
-/* line 147, scss/_home.scss */
+/* line 140, scss/_home.scss */
 span {
   margin-left: 10px;
 }
 
-/* line 150, scss/_home.scss */
+/* line 143, scss/_home.scss */
 #facebook {
   display: inline-block;
   background-image: url("logo/facebook.png");
@@ -526,12 +515,12 @@ span {
   height: 20px;
 }
 
-/* line 156, scss/_home.scss */
+/* line 149, scss/_home.scss */
 #facebook:hover {
   background: url("logo/facebookhover.png");
 }
 
-/* line 160, scss/_home.scss */
+/* line 153, scss/_home.scss */
 #twitter {
   display: inline-block;
   background-image: url("logo/twitter.png");
@@ -539,12 +528,12 @@ span {
   width: 20px;
 }
 
-/* line 166, scss/_home.scss */
+/* line 159, scss/_home.scss */
 #twitter:hover {
   background: url("logo/twitterhover.png");
 }
 
-/* line 172, scss/_home.scss */
+/* line 165, scss/_home.scss */
 .leftFooter {
   width: 300px;
   float: left;
@@ -553,44 +542,44 @@ span {
   font-family: futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
 }
 
-/* line 180, scss/_home.scss */
+/* line 173, scss/_home.scss */
 .rightFooter {
   width: 500px;
   float: right;
   text-align: right;
 }
 
-/* line 188, scss/_home.scss */
+/* line 181, scss/_home.scss */
 .footerdiv {
   margin: 0 auto;
   width: 960px;
   padding: 50px 0;
 }
 
-/* line 193, scss/_home.scss */
+/* line 186, scss/_home.scss */
 .trailer1vernagir p, .characterstext .linkstext {
   font-size: 17px;
 }
 
-/* line 197, scss/_home.scss */
+/* line 190, scss/_home.scss */
 .characterimgleft {
   margin: 0 20px 20px 0;
   float: left;
 }
 
-/* line 202, scss/_home.scss */
+/* line 195, scss/_home.scss */
 .characterimgright {
   margin: 0 20px 0 20px;
   float: right;
 }
 
-/* line 206, scss/_home.scss */
+/* line 199, scss/_home.scss */
 .characters {
   padding: 0 60px;
   height: 235px;
 }
 
-/* line 212, scss/_home.scss */
+/* line 205, scss/_home.scss */
 .characters p {
   width: 822px;
   margin: 10px 20px 10px 0px;
@@ -598,7 +587,7 @@ span {
   text-align: justify;
 }
 
-/* line 218, scss/_home.scss */
+/* line 211, scss/_home.scss */
 .characters span {
   margin-top: 33px;
   margin-right: 15px;
@@ -606,73 +595,95 @@ span {
   margin-left: 13px;
 }
 
-/* line 225, scss/_home.scss */
+/* line 218, scss/_home.scss */
 .behindvideo {
   width: 672px;
   margin: 0 auto;
 }
 
-/* line 229, scss/_home.scss */
+/* line 222, scss/_home.scss */
 .links {
   color: #1e0fbe;
   text-decoration: underline;
   font-size: 15px;
 }
 
-/* line 234, scss/_home.scss */
+/* line 227, scss/_home.scss */
 a:hover {
   color: #F5C676;
 }
 
-/* line 237, scss/_home.scss */
+/* line 230, scss/_home.scss */
 .linkstext {
   display: inline;
   font-size: 18px;
 }
 
-/* line 241, scss/_home.scss */
+/* line 234, scss/_home.scss */
 .casttext {
   display: inline-block;
   padding-top: 61px;
   padding-left: 37px;
 }
 
-/* line 246, scss/_home.scss */
+/* line 239, scss/_home.scss */
 .cast {
   width: 840px;
   height: 192px;
   margin: 10px 60px;
 }
 
-/* line 253, scss/_home.scss */
+/* line 246, scss/_home.scss */
 .casttext p {
   padding-left: 20px;
   display: inline;
   font-size: 27px;
 }
 
-/* line 258, scss/_home.scss */
+/* line 251, scss/_home.scss */
 .castcharacter {
   float: right;
   display: inline;
 }
 
-/* line 263, scss/_home.scss */
+/* line 256, scss/_home.scss */
 .castactor {
   float: left;
   display: inline;
 }
 
-/* line 268, scss/_home.scss */
+/* line 261, scss/_home.scss */
 .find, .facebook, .twitter {
   float: right;
   margin-left: 5px;
   margin-top: 20px;
 }
 
-/* line 274, scss/_home.scss */
+/* line 267, scss/_home.scss */
 .find {
   color: #ffffff;
+}
+
+/* line 271, scss/_home.scss */
+#header {
+  width: 960px;
+  margin: 0 auto;
+  height: 98px;
+}
+
+/* line 276, scss/_home.scss */
+.menu {
+  width: 577px;
+  float: right;
+  padding: 15px 0 0;
+  margin: 0;
+}
+
+/* line 284, scss/_home.scss */
+.logodiv {
+  border: 0;
+  float: left;
+  width: 300px;
 }
 
 /* Just for the example. Fee free to delete these three lines */
