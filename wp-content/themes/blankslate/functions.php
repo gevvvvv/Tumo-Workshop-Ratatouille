@@ -179,3 +179,36 @@ function post_type_eskizas() {
     register_post_type( 'eskiza', $args );
 }
 
+
+
+
+add_action( 'init', 'post_type_gallery' );
+
+function post_type_gallery() {
+    $labels = array(
+        'name'               => _x( 'gallery-imgs', 'post type general name' ),
+        'singular_name'      => _x( 'gallery-img', 'post type singular name' ),
+        'add_new'            => _x( 'Add New', 'gallery-imgs' ),
+        'add_new_item'       => __( 'Add New gallery-img' ),
+        'edit_item'          => __( 'Edit gallery-img' ),
+        'new_item'           => __( 'New gallery-img' ),
+        'all_items'          => __( 'All gallery-imgs' ),
+        'view_item'          => __( 'View gallery-img' ),
+        'search_items'       => __( 'Search gallery-imgs' ),
+        'not_found'          => __( 'No gallery-imgs found' ),
+        'not_found_in_trash' => __( 'No gallery-imgs found in the Trash' ),
+        'parent_item_colon'  => '',
+        'menu_name'          => 'Gallery'
+    );
+    $args = array(
+        'labels'        => $labels,
+        'description'   => 'Holds our gallery-imgs and gallery-img specific data',
+        'public'        => true,
+        'menu_position' => 5,
+        'supports'      => array( 'title', 'editor', 'thumbnail', ),
+        'has_archive'   => true,
+        'rewrite'       => array('slug' => 'gallery-img-type')
+    );
+    register_post_type( 'gallery', $args );
+}
+
