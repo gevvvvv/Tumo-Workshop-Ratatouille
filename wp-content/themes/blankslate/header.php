@@ -19,7 +19,14 @@
 
 
 <body id="<?php echo page_body_id(); ?>" <?php body_class(); ?>>
-
+<div id="header">
+<div class="logodiv">
+<a  href="/">
+<img src="<?=get_template_directory_uri();?>/logo/ratatouille-11.png" id="logo" alt="Ratatouille">
+</a>
+</div>
 <?php wp_nav_menu(array('theme_location' => 'main-menu')); ?>
+</div>
+
 
 <div class="background">
