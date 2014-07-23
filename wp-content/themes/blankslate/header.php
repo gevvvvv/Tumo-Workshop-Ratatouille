@@ -13,7 +13,7 @@
 
     <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/js/vendor.js"></script>
     <script type="text/javascript" src="<?= get_template_directory_uri(); ?>/js/app.js"></script>
-
+	<link rel="icon" href="<?= get_template_directory_uri(); ?>/logo/favicon (1).ico" type="image/x-icon">
 
 </head>
 
