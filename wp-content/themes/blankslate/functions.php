@@ -146,3 +146,36 @@ function post_type_cast() {
     register_post_type( 'cast', $args );
 }
 
+
+
+
+add_action( 'init', 'post_type_eskizas' );
+
+function post_type_eskizas() {
+    $labels = array(
+        'name'               => _x( 'Eskizas', 'post type general name' ),
+        'singular_name'      => _x( 'Eskiza', 'post type singular name' ),
+        'add_new'            => _x( 'Add New', 'Eskizas' ),
+        'add_new_item'       => __( 'Add New Eskiza' ),
+        'edit_item'          => __( 'Edit Eskiza' ),
+        'new_item'           => __( 'New Eskiza' ),
+        'all_items'          => __( 'All Eskizas' ),
+        'view_item'          => __( 'View Eskiza' ),
+        'search_items'       => __( 'Search Eskizas' ),
+        'not_found'          => __( 'No Eskizas found' ),
+        'not_found_in_trash' => __( 'No Eskizas found in the Trash' ),
+        'parent_item_colon'  => '',
+        'menu_name'          => 'Eskizas'
+    );
+    $args = array(
+        'labels'        => $labels,
+        'description'   => 'Holds our Eskizas and Eskiza specific data',
+        'public'        => true,
+        'menu_position' => 5,
+        'supports'      => array( 'title', 'editor', 'thumbnail', ),
+        'has_archive'   => true,
+        'rewrite'       => array('slug' => 'eskiza-type')
+    );
+    register_post_type( 'eskiza', $args );
+}
+

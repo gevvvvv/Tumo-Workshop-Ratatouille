@@ -10,13 +10,6 @@ app.gallery = {
     init:function  () {
         $("#pikame").PikaChoose({carousel:true});
 
-
-if($("#show").hasClass("show"))
-{
-   alert("rllo");
-    $(".show").css("optical","0px");
-}
-
-    }
+ }
 
 };

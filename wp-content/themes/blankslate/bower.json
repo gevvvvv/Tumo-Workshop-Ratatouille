@@ -9,7 +9,6 @@
         ,"mustache": "~0.8.1"
         ,"eonasdan-bootstrap-datetimepicker": "~3.0.0"
         ,"jquery-ui": "~1.10.4"
-        ,"jcarousel": "0.3.1"
         ,"pikachoose": "git@github.com:jeremyfry/PikaChoose.git"
         ,"touchwipe": "http://www.netcu.de/templates/netcu/js/jquery.touchwipe.min.js"
     },
