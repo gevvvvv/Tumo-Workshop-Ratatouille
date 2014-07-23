@@ -1,5 +1,5 @@
 /*
-Syntax error: File to import not found or unreadable: ../bower_components/pikachoose/styles/base.scss.
+Syntax error: File to import not found or unreadable: ../bower_components/pikachoose/styles/bottom.scss.
               Load paths:
                 c:/project/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss
                 c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.7/frameworks/blueprint/stylesheets
@@ -64,4 +64,4 @@ c:/Ruby193/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: ../bower_components/pikachoose/styles/base.scss.\A               Load paths:\A                 c:/project/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss\A                 c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.7/frameworks/blueprint/stylesheets\A                 c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.7/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 1 of c:/project/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss/_plugins.scss\A         from line 9 of c:/project/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss/style.scss\A \A 1: c:/project/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss/style.scss"; }
+  content: "Syntax error: File to import not found or unreadable: ../bower_components/pikachoose/styles/bottom.scss.\A               Load paths:\A                 c:/project/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss\A                 c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.7/frameworks/blueprint/stylesheets\A                 c:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.7/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 1 of c:/project/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss/_plugins.scss\A         from line 9 of c:/project/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss/style.scss\A \A 1: c:/project/Tumo-Workshop-Ratatouille/wp-content/themes/blankslate/scss/style.scss"; }
