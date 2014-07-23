@@ -14,11 +14,6 @@ font-size:18px;
 
 }
 
-.logodiv{
-border:0;
-float:left;
-
-}
 li {
 display: block;
 float: right;
@@ -59,9 +54,7 @@ float: left;
 
 }
 
-#header {
-min-width: 960px;
-}
+
 .menu{
 font-family:futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
 margin: 0 auto;
@@ -275,3 +268,22 @@ margin-top:20px;
 color: #ffffff;
 }
 
+#header {
+  width: 960px;
+  margin: 0 auto;
+  height: 98px;
+}
+.menu {
+  width: 577px;
+  float: right;
+  padding: 15px 0 0;
+  margin: 0;
+
+}
+
+.logodiv{
+  border:0;
+  float:left;
+  width: 300px;
+
+}
